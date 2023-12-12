@@ -1,4 +1,4 @@
-# Rssman
+# rssman
 
 ### Telegram bot, able to parse RSS, use the openai api to generate a summary.
 
