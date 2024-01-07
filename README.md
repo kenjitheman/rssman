@@ -1,19 +1,4 @@
-# rssman
-
-### Telegram bot, able to parse RSS, use the openai api to generate a summary.
-
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="200" alt="go logo"  />
-  <img width="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="200" alt="docker logo"  />
-</div>
-
-###
-
-- Telegram bot, which is able to parse RSS and use the openai api to generate a short summary and a link to the source.
-- It's also possible to add sources through commands in the telegram bot.
+> Telegram bot, which is able to parse RSS and use the openai api to generate a short summary and a link to the source. It's also possible to add sources through commands in the telegram bot.
 
 ## Installation
 
