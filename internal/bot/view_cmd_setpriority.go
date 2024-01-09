@@ -5,7 +5,7 @@ import (
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 
-	"main.go/internal/botkit"
+	"github.com/btwkenji/rssman/internal/botkit"
 )
 
 type PrioritySetter interface {
@@ -37,3 +37,4 @@ func ViewCmdSetPriority(prioritySetter PrioritySetter) botkit.ViewFunc {
 		return nil
 	}
 }
+

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/tomakado/containers/set"
-	
-	"main.go/internal/model"
-	src "main.go/internal/source"
+
+	"github.com/btwkenji/rssman/internal/model"
+	src "github.com/btwkenji/rssman/internal/source"
 )
 
 //go:generate moq --out=mocks/mock_article_storage.go --pkg=mocks . ArticleStorage
@@ -138,3 +138,4 @@ func (f *Fetcher) itemShouldBeSkipped(item model.Item) bool {
 
 	return false
 }
+

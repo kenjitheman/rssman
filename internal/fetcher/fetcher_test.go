@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"main.go/internal/fetcher"
-	"main.go/internal/fetcher/mocks"
-	"main.go/internal/model"
+	"github.com/btwkenji/rssman/internal/fetcher"
+	"github.com/btwkenji/rssman/internal/fetcher/mocks"
+	"github.com/btwkenji/rssman/internal/model"
 )
 
 //go:embed testdata/feed1.xml

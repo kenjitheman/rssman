@@ -6,7 +6,7 @@ import (
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 
-	"main.go/internal/botkit"
+	"github.com/btwkenji/rssman/internal/botkit"
 )
 
 type SourceDeleter interface {
@@ -34,3 +34,4 @@ func ViewCmdDeleteSource(deleter SourceDeleter) botkit.ViewFunc {
 		return nil
 	}
 }
+

@@ -9,8 +9,8 @@ import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"github.com/samber/lo"
 
-	"main.go/internal/botkit"
-	"main.go/internal/model"
+	"github.com/btwkenji/rssman/internal/botkit"
+	"github.com/btwkenji/rssman/internal/model"
 )
 
 type SourceLister interface {
@@ -47,3 +47,4 @@ func ViewCmdListSource(lister SourceLister) botkit.ViewFunc {
 		return nil
 	}
 }
+

@@ -42,3 +42,4 @@ func Get() Config {
 
 	return cfg
 }
+

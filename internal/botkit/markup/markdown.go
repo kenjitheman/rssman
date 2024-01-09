@@ -46,3 +46,4 @@ var (
 func EscapeForMarkdown(src string) string {
 	return replacer.Replace(src)
 }
+

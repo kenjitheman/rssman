@@ -7,9 +7,9 @@ import (
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 
-	"main.go/internal/botkit"
-	"main.go/internal/botkit/markup"
-	"main.go/internal/model"
+	"github.com/btwkenji/rssman/internal/botkit"
+	"github.com/btwkenji/rssman/internal/botkit/markup"
+	"github.com/btwkenji/rssman/internal/model"
 )
 
 type SourceProvider interface {
@@ -50,3 +50,4 @@ func formatSource(source model.Source) string {
 		source.Priority,
 	)
 }
+

@@ -80,3 +80,4 @@ func (b *Bot) handleUpdate(ctx context.Context, update tgbotapi.Update) {
 }
 
 type ViewFunc func(ctx context.Context, bot *tgbotapi.BotAPI, update tgbotapi.Update) error
+

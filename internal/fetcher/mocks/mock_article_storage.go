@@ -5,8 +5,8 @@ package mocks
 
 import (
 	"context"
-	"main.go/internal/fetcher"
-	"main.go/internal/model"
+	"github.com/btwkenji/rssman/internal/fetcher"
+	"github.com/btwkenji/rssman/internal/model"
 	"sync"
 )
 

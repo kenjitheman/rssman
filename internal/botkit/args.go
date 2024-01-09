@@ -13,3 +13,4 @@ func ParseJSON[T any](src string) (T, error) {
 
 	return args, nil
 }
+

@@ -9,17 +9,17 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/btwkenji/rssman/internal/bot"
+	"github.com/btwkenji/rssman/internal/bot/middleware"
+	"github.com/btwkenji/rssman/internal/botkit"
+	"github.com/btwkenji/rssman/internal/config"
+	"github.com/btwkenji/rssman/internal/fetcher"
+	"github.com/btwkenji/rssman/internal/notifier"
+	"github.com/btwkenji/rssman/internal/storage"
+	"github.com/btwkenji/rssman/internal/summary"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
-	"main.go/internal/bot"
-	"main.go/internal/bot/middleware"
-	"main.go/internal/botkit"
-	"main.go/internal/config"
-	"main.go/internal/fetcher"
-	"main.go/internal/notifier"
-	"main.go/internal/storage"
-	"main.go/internal/summary"
 )
 
 func main() {

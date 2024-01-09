@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/btwkenji/rssman/internal/botkit"
+	"github.com/btwkenji/rssman/internal/model"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"main.go/internal/botkit"
-	"main.go/internal/model"
 )
 
 type SourceStorage interface {
@@ -55,3 +55,4 @@ func ViewCmdAddSource(storage SourceStorage) botkit.ViewFunc {
 		return nil
 	}
 }
+
