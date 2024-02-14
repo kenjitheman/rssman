@@ -1,4 +1,4 @@
-module github.com/btwkenji/rssman
+module github.com/kenjitheman/rssman
 
 go 1.21
 

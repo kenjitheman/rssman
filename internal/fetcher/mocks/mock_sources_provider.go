@@ -5,8 +5,8 @@ package mocks
 
 import (
 	"context"
-	"github.com/btwkenji/rssman/internal/fetcher"
-	"github.com/btwkenji/rssman/internal/model"
+	"github.com/kenjitheman/rssman/internal/fetcher"
+	"github.com/kenjitheman/rssman/internal/model"
 	"sync"
 )
 

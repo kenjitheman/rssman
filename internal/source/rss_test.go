@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/btwkenji/rssman/internal/model"
-	"github.com/btwkenji/rssman/internal/source"
+	"github.com/kenjitheman/rssman/internal/model"
+	"github.com/kenjitheman/rssman/internal/source"
 )
 
 //go:embed testdata/feed.xml

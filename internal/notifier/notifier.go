@@ -13,8 +13,8 @@ import (
 	"github.com/go-shiori/go-readability"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 
-	"github.com/btwkenji/rssman/internal/botkit/markup"
-	"github.com/btwkenji/rssman/internal/model"
+	"github.com/kenjitheman/rssman/internal/botkit/markup"
+	"github.com/kenjitheman/rssman/internal/model"
 )
 
 type ArticleProvider interface {

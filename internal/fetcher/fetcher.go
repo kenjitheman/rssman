@@ -9,8 +9,8 @@ import (
 
 	"github.com/tomakado/containers/set"
 
-	"github.com/btwkenji/rssman/internal/model"
-	src "github.com/btwkenji/rssman/internal/source"
+	"github.com/kenjitheman/rssman/internal/model"
+	src "github.com/kenjitheman/rssman/internal/source"
 )
 
 //go:generate moq --out=mocks/mock_article_storage.go --pkg=mocks . ArticleStorage
